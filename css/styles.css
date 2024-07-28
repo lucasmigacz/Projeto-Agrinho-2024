@@ -8,6 +8,7 @@
 
 :root {
   --main-green-color: #138e53;
+  --main-white-text-color: #ffffff;
 }
 
 .navbar {
@@ -23,4 +24,8 @@
 
 .navbar ul {
   display: flex;
+}
+
+.navbar li {
+  color: var(--main-white-text-color);
 }
